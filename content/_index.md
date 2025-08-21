@@ -22,7 +22,7 @@ sections:
       css_class: dark
       # Avatar customization
       avatar:
-        size: medium  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
+        size: xl  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
       background:
         color: black
@@ -46,27 +46,27 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ""
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
+  #- block: collection
+    #id: papers
+    #content:
+      #title: Featured Publications
+      #filters:
+      #  folders:
+      #    - publication
+      #  featured_only: true
+    #design:
+    #  view: article-grid
+    #  columns: 2
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    text: ""
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: false
+  #  design:
+  #    view: citation
   - block: collection
     id: talks
     content:

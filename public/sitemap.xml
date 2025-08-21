@@ -8,7 +8,29 @@
   <url>
     <loc>http://localhost:1313/event/</loc><lastmod>2030-06-01T13:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/publication_types/article-journal/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/adi-2024-ebl/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/flitter-2024-eay/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/plombat-2024-kla/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication_types/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/</loc><lastmod>2025-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/projects/</loc><lastmod>2024-05-19T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/cruz-2023-rmo/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/lazare-2024-uvj/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/libanore-2023-oxf/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/flitter-2023-mjj/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
+    <loc>http://localhost:1313/publication/flitter-2023-rzv/</loc><lastmod>2024-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
     <loc>http://localhost:1313/post/get-started/</loc><lastmod>2023-10-27T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
@@ -58,24 +80,12 @@
   <url>
     <loc>http://localhost:1313/post/project-management/</loc><lastmod>2023-10-23T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
+    <loc>http://localhost:1313/publication/flitter-2023-xql/</loc><lastmod>2023-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+  <url>
     <loc>http://localhost:1313/</loc><lastmod>2022-10-24T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication/preprint/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/publication/flitter-2022-pzf/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/publication_types/article/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
+    <loc>http://localhost:1313/publication/sarkar-2022-dvl/</loc><lastmod>2022-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
   <url>
-    <loc>http://localhost:1313/tags/large-language-models/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication_types/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication/</loc><lastmod>2019-04-07T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication/journal-article/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication_types/article-journal/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/tags/source-themes/</loc><lastmod>2015-09-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication/conference-paper/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url>
-  <url>
-    <loc>http://localhost:1313/publication_types/paper-conference/</loc><lastmod>2013-07-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>
+    <loc>http://localhost:1313/publication/flitter-2020-bky/</loc><lastmod>2021-01-01T00:00:00+00:00</lastmod><changefreq>weekly</changefreq></url></urlset>

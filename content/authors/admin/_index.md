@@ -1,20 +1,20 @@
 ---
 # Display name
-title: 吳健雄
+title: Jordan Flitter
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Jordan
+last_name: Flitter
 
 # Pronouns (optional)
-pronouns: she/her
+pronouns: 
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,31 +23,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: 
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Scuola Normale Superiore
+    url: http://cosmology.sns.it/members.html
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:jordan.flitter@sns.it'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/jordanflitter
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://inspirehep.net/authors/1897198
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-8092-8228
+  - icon: brands/arxiv
+    url: https://arxiv.org/search/?searchtype=author&query=Flitter%2C+J
 
 interests:
   - Artificial Intelligence
