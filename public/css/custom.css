@@ -1,0 +1,53 @@
+/* Make social/academic icons bigger */
+.social-icons i,
+.social-icons svg,
+.contact-icons i,
+.contact-icons svg {
+  font-size: 2.5em !important;
+}
+
+/* Alternative selectors in case the above don't work */
+.fab, .fas, .ai {
+  font-size: 2.5em !important;
+}
+
+/* Target specific academic icons */
+.ai-arxiv,
+.ai-orcid,
+.ai-google-scholar,
+.ai-researchgate {
+  font-size: 2.5em !important;
+}
+
+/* If icons are in different sections, try these */
+.about-section .social-icons i,
+.home-section .social-icons i,
+.author-social i {
+  font-size: 2.5em !important;
+}
+
+/* Broader selector that should catch most cases */
+a[href*="arxiv"] i,
+a[href*="orcid"] i,
+a[href*="scholar"] i {
+  font-size: 2.5em !important;
+}
+
+/* Add your photo next to your name in navbar */
+.navbar-nav .navbar-brand,
+.navbar-brand {
+  display: flex !important;
+  align-items: center !important;
+}
+
+.navbar-brand::before {
+  content: "";
+  background-image: url('/authors/admin/avatar.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
