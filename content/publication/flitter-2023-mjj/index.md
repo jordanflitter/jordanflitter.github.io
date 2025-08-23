@@ -1,5 +1,5 @@
 ---
-title: New tool for 21-cm cosmology. I. Probing ensuremathŁambdaCDM and beyond
+title: New tool for 21-cm cosmology. I. Probing $\Lambda$CDM and beyond
 authors:
 - Jordan Flitter
 - Ely D. Kovetz
