@@ -22,7 +22,7 @@ main:
   - name: Publications
     url: publication/
     weight: 40
-  - name: Extra
+  - name: Extra 🏀
     url: extra/
     weight: 50
   
