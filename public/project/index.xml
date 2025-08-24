@@ -5,7 +5,7 @@
     <link>http://localhost:1313/project/</link>
       <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 26 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 24 Aug 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/logo_hu_8754a69fbc8a86ed.png</url>
       <title>Projects</title>
@@ -13,27 +13,27 @@
     </image>
     
     <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/project/pandas/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pandas/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <title>SPaRTA</title>
+      <link>http://localhost:1313/project/sparta/</link>
+      <pubDate>Sun, 24 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/sparta/</guid>
+      <description>&lt;p&gt;SPaRTA 🛡️ = SPeedy Lyman alpha Ray Tracing Algorithm. The code can be used to perform quickly MCMC simulation of the trajectories of absorbed Lyman alpha photons in the IGM, plotting them, and gather insights on their properties.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>PyTorch</title>
-      <link>http://localhost:1313/project/pytorch/</link>
+      <title>21cmFirstCLASS</title>
+      <link>http://localhost:1313/project/21cmfirstclass/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/pytorch/</guid>
+      <guid>http://localhost:1313/project/21cmfirstclass/</guid>
       <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>scikit-learn</title>
-      <link>http://localhost:1313/project/scikit/</link>
+      <title>Black hole coagulation</title>
+      <link>http://localhost:1313/project/bh_coagulation/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/scikit/</guid>
-      <description>&lt;p&gt;scikit-learn is a Python module for machine learning built on top of SciPy and is distributed under the 3-Clause BSD license.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/project/bh_coagulation/</guid>
+      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
     </item>
     
   </channel>

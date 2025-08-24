@@ -12,7 +12,8 @@ sections:
   - block: collection
     content:
       title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      text: 
+        Unlike the common belief, being a theoretical physicist nowadays is not just solving equations. In fact, my research requires me to do a lot of programming. Here is a selected list of codes that I have developed as part of my research.
       filters:
         folders:
           - project
