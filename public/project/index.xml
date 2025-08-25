@@ -23,17 +23,17 @@
     <item>
       <title>21cmFirstCLASS</title>
       <link>http://localhost:1313/project/21cmfirstclass/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/21cmfirstclass/</guid>
-      <description>&lt;p&gt;PyTorch is a Python package that provides tensor computation (like NumPy) with strong GPU acceleration.&lt;/p&gt;</description>
+      <description>&lt;p&gt;21cmFirstCLASS is an extension of the popular 21cmFAST code that interfaces with CLASS to generate initial conditions at recombination that are consistent with the input cosmological model. These initial conditions can be set during the time of recombination, allowing one to compute the 21cm signal (and its spatial fluctuations) throughout the dark ages, as well as in the proceeding cosmic dawn and reionization epochs, just like in the standard 21cmFAST.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Black hole coagulation</title>
       <link>http://localhost:1313/project/bh_coagulation/</link>
-      <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 18 Aug 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/project/bh_coagulation/</guid>
-      <description>&lt;p&gt;Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Matlab code for solving the coagulation equation for black hole and neutron star mergers and predicting the observed black hole mass function.&lt;/p&gt;</description>
     </item>
     
   </channel>
