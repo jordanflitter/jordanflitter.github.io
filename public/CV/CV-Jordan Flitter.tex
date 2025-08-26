@@ -1,0 +1,266 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper,12pt]{article}
+
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{fontawesome5}
+\usepackage[dvipsnames]{xcolor}
+
+
+\onehalfspacing
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+%\usepackage[T1]{fontenc}
+%\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Jordan Flitter}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = blue,
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{Jordan Flitter --- Curriculum Vitae}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large\bf\color{RoyalBlue}}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}{0.6\textwidth}
+{\huge \bf\name}
+\vspace{5mm}
+
+{\Large \faEnvelope[regular]} \quad \href{mailto:jordan.flitter@sns.it}{\tt jordan.flitter@sns.it}
+\\
+{\Large \faGlobe} \quad \href{https://jordanflitter.github.io/}{\tt jordanflitter.github.io}
+\\
+{\Large \faGithubSquare} \quad \href{https://github.com/jordanflitter}{\tt jordanflitter}
+\\
+{\Large \faOrcid} \quad \href{https://orcid.org/0000-0001-8092-8228}{\tt 0000-0001-8092-8228}
+\\
+{\Large \faPhone*} \quad (+39) 3513209741
+\\
+{\Large \faMapMarker*} \quad Piazza Dei Cavalieri 7, Pisa, PI, 56126, Italy
+\end{minipage}
+\hfill
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{avatar.jpg}
+\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Academic Positions}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item {\bf Postdoctoral Fellow}, Scuola Normale Superiore, Pisa, Italy, \hfill 2024--today\\ 
+ 	Cosmology research group.
+
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item {\bf Ph.D. Physics}, Ben-Gurion University, Israel \hfill 2020--2025
+%	under the supervision of Dr. Ely D. Kovetz,\\
+%	title of the thesis:\\
+%	"Searching for dark matter signatures in the 21cm signal".
+
+\item {\bf M.Sc. Physics}, Tel-Aviv University, Israel \hfill 2015--2020\\
+(concurrent with military service)
+%  	\vspace{0.1mm}
+%	\hspace{0.8cm}
+%	under the supervision of Prof. Nissan Itzhaki and Dr. Ely D. Kovetz,\\
+%	\vspace{0.1mm}
+%	\hspace{0.8cm}
+%	title of thesis:\\
+%	"Outliers in the LIGO Black Hole Mass Function --- explained by Coagulation in Globular Clusters".
+\item {\bf B.Sc. Physics}, Tel-Aviv University, Israel \hfill 2009--2013
+\item {\bf B.Sc. Electrical Engineering}, Tel-Aviv University, Israel \hfill 2009--2013
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Military Service}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item {\bf UAV System Engineer}, Israeli Air Force (Final rank: Captain) \hfill 2014--2019
+\end{itemize}
+
+\newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Awards \& Achievements}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item Promotion to ''Instructor'' rank in BGU due to excellence in teaching\hfill 2024\\(only one Ph.D. student in the Physics Department can hold this rank)
+	\item Rector prize for excellence in research\hfill 2023\\(the highest honor for Ph.D. students at Ben-Gurion University)
+	\item Prof. Rahamimoff travel grant for young scientists of the US-Israel \\Binational Science Foundation (BSF)\hfill 2023
+	\item Dean prize for excellence in research\hfill 2022%\\(1\% of BGU’s graduate students can be nominated)
+	\item Zin fellowship awarded by the BGU Kreitman School\hfill 2022
+	\item High-Tech fellowship awarded by the BGU Kreitman School\hfill 2021
+	\item Graduated summa cum laude, Electrical engineering B.Sc\hfill 2013
+	\item Graduated summa cum laude, Physics B.Sc\hfill 2013	
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Teaching}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item Lecturer, Ben-Gurion University
+	\item \hspace{10mm} Introduction to Mechanics (for chemists) \hfill 2022--2024
+	\item Teaching Assistant, Ben-Gurion University
+	\item \hspace{10mm} Advanced Quantum Mechanics (graduate course) \hfill 2020--2024
+	\item \hspace{10mm} Introduction to Particles and Fields \hfill 2020--2024
+	\item \hspace{10mm} Physics 2 (for industrial engineers) \hfill 2020
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Publications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item \textbf{J.~Flitter}, J.~B.~Muñoz, E.~D.~Kovetz, 2021. Outliers in the LIGO black hole mass function from coagulation in dense clusters. Mon. Not. R. Astron. Soc. 507: 743–760.% (IF 5.235, Q1 17/69).%, 5 citations.
+	\item D. Sarkar, \textbf{J.~Flitter}, E.~D.~Kovetz, 2022. Exploring delaying and heating effects on the 21-cm signature of fuzzy dark matter. Phys. Rev. D. 105, 103529.% (IF 5.0, Q1 15/69).
+	\item \textbf{J.~Flitter}, E.~D.~Kovetz, 2022. Closing the window on fuzzy dark matter with the 21-cm signal. Phys. Rev. D. 106, 063504.% (IF 5.0, Q1 15/69).
+	\item \textbf{J.~Flitter}, C.~Creque-Sarbinowski, M.~Kamionkowski, L.~Dai, 2023. Magnetic fields from compensated isocurvature perturbations. Phys. Rev. D. 107, 103536.% (IF 5.0, Q1 15/69).
+	\item H.~A.~G.~Cruz, T.~Adi, \textbf{J.~Flitter}, M.~Kamionkowski, E.~D.~Kovetz, 2023. 21-cm fluctuations from primordial magnetic fields. Phys. Rev. D. 109, 023518.
+	\item \textbf{J.~Flitter}, E.~D.~Kovetz, 2023. {\tt 21cmFirstCLASS} I. Cosmological tool for $\Lambda$CDM and beyond. Phys. Rev. D. 109, 043512.
+	\item \textbf{J.~Flitter}, E.~D.~Kovetz, 2023. {\tt 21cmFirstCLASS} II. Early linear fluctuations of the 21-cm signal. Phys. Rev. D. 109, 043513.
+	\item S.~Libanore, \textbf{J.~Flitter}, E.~D.~Kovetz, Z.~Li, A.~Dekel, 2023. Effects of feedback-free starburst galaxies on the 21-cm signal and reionization history. Mon. Not. R. Astron. Soc. 532: 149–163.
+	\item H.~Lazare, \textbf{J.~Flitter}, E.~D.~Kovetz, 2024. Constraints on the fuzzy dark matter mass window from high-redshift observables. Phys. Rev. D. 110, 123532.
+	\item H.~Plombat, T.~Simon, \textbf{J.~Flitter}, V.~Poulin, 2024. Probing Dark Relativistic Species and Their Interactions with Dark Matter through CMB and 21cm surveys. JCAP 01, 071.
+	\item T.~Adi, \textbf{J.~Flitter}, E.~D.~Kovetz, 2024. Early Dark Energy Effects on the 21cm Signal. Phys. Rev. D. 111, 043515.
+	\item \textbf{J.~Flitter}, S.~Libanore, E.~D.~Kovetz, 2024. Does it matter? A more careful treatment of density fluctuations in 21-cm simulations. Phys. Rev. D. 112, 023537.
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Codes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item \href{https://github.com/jordanflitter/BH-coagulation}{\tt BH-coagulation}: code for solving the coagulation equation for black hole and neutron star mergers
+	\item \href{https://github.com/jordanflitter/21cmFirstCLASS}{\tt 21cmFirstCLASS}: an extension of the popular {\tt 21cmFAST} code that interfaces with {\tt CLASS}.
+	\item \href{https://github.com/jordanflitter/SPaRTA}{\tt SP$\alpha$RTA}: speedy Ly$\alpha$ ray tracing algorithm.
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Professional Service}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item Referee for JCAP \hfill 2025--today
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Talks}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item %"Outliers in the LIGO black hole mass function from coagulation in dense clusters", 
+	Tel-Aviv University, High-Energy Physics Seminar, Israel (August 13th, 2020).
+	\item (Invited) %"Closing the window on fuzzy dark matter with the 21cm signal", 
+	University of Padova, Cosmology Group Seminar, Italy (November 16th, 2022).
+	\item (Invited) %"Searching for dark matter signatures with the 21cm signal", 
+	University of Texas, Astronomy Seminar, United States (September 11th, 2023).
+	\item %"Searching for dark matter signatures with the 21cm signal", 
+	New York University, Astrophysics Seminar, United States (September 25th, 2023).
+	\item %"Searching for dark matter signatures with the 21cm signal", 
+	Massachusetts Institute of Technology, Dark Matter Group Seminar, United States (September 27th, 2023).
+	\item %"Searching for dark matter signatures with the 21cm signal", 
+	Harvard University, Cosmology Group Seminar, United States (September 29th, 2023).
+	\item %"Searching for dark matter signatures with the 21cm signal", 
+	Ben-Gurion University, Astrophysics Seminar, Israel (January 31th, 2024).
+	\item %"Searching for dark matter signatures with the 21cm signal", 
+	Sapienza University of Rome, GEMMA 2 workshop, Italy (September 19th, 2024).
+\end{itemize}
+
+\vspace{-5mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Conferences and Schools}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+	\item The 37th Advanced School in Theoretical Physics: New Ideas for Old Puzzles in Particle Physics, Jerusalem Hebrew University, Israel (December 29th, 2019 - January 9th, 2020).
+	\item The Israeli Physics Society (IPS) Conference, Ben-Gurion University, Israel (February 2nd, 2022).\\
+		Contributed talk: "Exploring delaying and heating effects on the 21-cm signature of fuzzy dark matter".
+	\item Black Holes: From Theory to Observations, Academic Conference, Tel-Aviv, Israel (February 1st, 2023).
+	\item The Israeli Physics Society (IPS) Conference, Tel-Aviv, Israel (April 4th, 2023).
+	\item Neutral Hydrogen as a Cosmological Probe Across Cosmic Time, Nazareth, Israel (May 15th-19th, 2023).\\
+		Contributed talk: "Searching for dark matter signatures in the 21-cm signal".
+	\item Gravitational waves, ElectroMagnetic and dark MAtter physics (GEMMA 2) workshop (September 16th-19th, 2024).\\
+		Contributed talk: "Searching for dark matter signatures in the 21-cm signal". 
+\end{itemize}
+
+%\vspace{\fill}
+
+% Footer
+%\begin{center}
+%  \begin{footnotesize}
+ %   Last updated: \today \\
+ %   \href{\footerlink}{\texttt{\footerlink}}
+ % \end{footnotesize}
+%\end{center}
+
+\end{document}
