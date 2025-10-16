@@ -6,7 +6,7 @@ links:
     url: https://github.com/jordanflitter/SPaRTA
 ---
 
-SPaRTA 🛡️ = SPeedy Lyman alpha Ray Tracing Algorithm. The code can be used to perform quickly MC simulation of the trajectories of absorbed Lyman alpha photons in the intergalactic medium (IGM), plotting them, and gather insights on their properties.
+SPaRTA 🛡️ = SPeedy Lyman alpha Ray Tracing Algorithm. The code can be used to perform quickly MC simulations of the trajectories of absorbed Lyman alpha photons in the intergalactic medium (IGM), plotting them, and gather insights on their properties.
 
 Let us look for example on the trajectories of 6 photons as they travel through the IGM, until they are absorbed at the center at redshift $z_\mathrm{abs}=10$. The black line in all plots corresponds to a photon traveling in a straight-line. On large scales, all photons appear to travel in straight-lines as their aparent frequency is far away from the Lyman alpha line center. On small scales, the photons appear to do a random walk with a step size that decreases as we zoom-in, this happens as on the smallest scales the frequency of the photons is close to Lyman alpha and the cross-section for interacting with the hydrogen atoms in the IGM becomes very large.
 
